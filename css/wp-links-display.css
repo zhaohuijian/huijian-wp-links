@@ -1,0 +1,189 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.wplf_display, .wplf_desc {
+	text-align: center;
+}
+
+/* Gallery CSS */
+#gallery-wplf {
+	width: 100% !important;
+	margin: auto;
+
+}
+.gallery-item a img {
+	display: block;
+	-webkit-transition: -webkit-filter 0.2s ease-in;
+	transition: -webkit-filter 0.2s ease-in;
+	transition: filter 0.2s ease-in;
+	transition: filter 0.2s ease-in, -webkit-filter 0.2s ease-in;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	width: 100%;
+	height: auto;
+}
+.gallery-item a, .gallery-item a:hover, .gallery-item a:focus, .widget-area .gallery-item a, .widget-area .gallery-item a:hover, .widget-area .gallery-item a:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background: none;
+	display: inline-block;
+	width: 100%;
+	padding: 1px;
+	line-height: normal !important;
+}
+.gallery-item {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 1.5em;
+	padding: 0 1em 0 0;
+	word-wrap: break-word;
+	float: none;
+}
+.gallery-item {
+	width: 25%;
+	box-sizing: border-box;
+}
+.gallery-columns-1 .gallery-item {
+	width: 100%;
+	box-sizing: border-box;
+}
+.gallery-columns-2 .gallery-item {
+	width: 50%;
+	box-sizing: border-box;
+}
+.gallery-columns-3 .gallery-item {
+	width: 33.33%;
+	box-sizing: border-box;
+}
+.gallery-columns-4 .gallery-item {
+	width: 25%;
+	box-sizing: border-box;
+}
+.gallery-columns-5 .gallery-item {
+	width: 20%;
+	box-sizing: border-box;
+}
+.gallery-columns-6 .gallery-item {
+	width: 16.66%;
+	box-sizing: border-box;
+}
+.gallery-columns-7 .gallery-item {
+	width: 14.28%;
+	box-sizing: border-box;
+}
+.gallery-columns-8 .gallery-item {
+	width: 12.5%;
+	box-sizing: border-box;
+}
+.gallery-columns-9 .gallery-item {
+	width: 11.11%;
+	box-sizing: border-box;
+}
+.gallery-columns-10 .gallery-item {
+	width: 10%;
+	box-sizing: border-box;
+}
+.gallery-columns-11 .gallery-item {
+	width: 9.09%;
+	box-sizing: border-box;
+}
+.gallery-columns-12 .gallery-item {
+	width: 8.33%;
+	box-sizing: border-box;
+}
+.gallery-columns-13 .gallery-item {
+	width: 7.69%;
+	box-sizing: border-box;
+}
+.gallery-columns-14 .gallery-item {
+	width: 7.14%;
+	box-sizing: border-box;
+}
+.gallery-columns-15 .gallery-item {
+	width: 6.66%;
+	box-sizing: border-box;
+}
+.gallery-columns-16 .gallery-item {
+	width: 6.25%;
+	box-sizing: border-box;
+}
+.gallery-columns-17 .gallery-item {
+	width: 5.88%;
+	box-sizing: border-box;
+}
+.gallery-columns-18 .gallery-item {
+	width: 5.55%;
+	box-sizing: border-box;
+}
+.gallery-columns-19 .gallery-item {
+	width: 5.26%;
+	box-sizing: border-box;
+}
+.gallery-columns-20 .gallery-item {
+	width: 5%;
+	box-sizing: border-box;
+}
+
+.wplf_display {
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+}
+@media screen and (max-width: 700px) and (min-width: 400px) {
+	.gallery-item { width: 50% !important; max-width: 50% !important;}
+}
+
+@media screen and (max-width: 400px) {
+	.gallery-item { width: 100% !important; max-width: 100% !important;}}
+
+
+/* List CSS */
+
+.list-item .wplf_display, .list-item .wplf_desc {
+	text-align: left;
+}
+
+.list-img {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	width: 33.33%;
+}
+
+.list-img img {
+	width: 100%;
+	height: auto;
+}
+
+.list-item {
+	clear: both;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+#list-wplf hr{
+	clear: both;
+}
+
+@media screen and (max-width: 700px) {
+	.list-img {float: none;
+	margin: 0;
+	width: 100%;
+	}
+	.list-item .wplf_display, .list-item .wplf_desc {
+		text-align: center;
+	}
+	.wplf-fav .list-img {
+		float: left;
+		margin-bottom: 20px;
+	}
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 680px) {
+#archive-browser {
+
+	flex-direction: column;
+
+
+  }
+}
