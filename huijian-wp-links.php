@@ -2,7 +2,7 @@
 /*
 Plugin Name: Huijian WP Links
 Description: Technology website sharing
-Version: 1.6.3
+Version: 1.6.4
 Author: Huijian
 */
 
@@ -1515,6 +1515,3 @@ function wplf_shortcode($atts)
 	return $output;
 }
 add_shortcode('wp_links_page', 'wplf_shortcode');
-
-
-add_shortcode('wp_links_page_free', 'wplf_shortcode');
